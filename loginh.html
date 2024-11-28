@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeriexel</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header>
+        <div class="header-content">
+            <h1>Galeriexel</h1>
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Search images..." onkeyup="filterImages()">
+                <button type="button" id="search-button"onclick="searchImages()">Search</button>
+                <button type="button" class="clear-button" onclick="clearSearch()">✕</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="categories">
+            <div class="category" id="birds">
+                <h2>Birds</h2>
+                <div class="gallery">
+                    <figure class="gallery-item" data-aos="fade-up">
+                        <img src="img/bird1.jpg" alt="Bird 1">
+                    </figure>
+                    <figure class="gallery-item" data-aos="fade-up">
+                        <img src="img/bird2.jpg" alt="Bird 2">
+                    </figure>
+                    <figure class="gallery-item" data-aos="fade-up">
+                        <img src="img/bird3.jpg" alt="Bird 3">
+                    </figure>
+                    <figure class="gallery-item" data-aos="fade-up">
+                        <img src="img/bird6.jpg" alt="Bird 4">
+                    </figure>
+                    <figure class="gallery-item" data-aos="fade-up">
+                        <img src="img/bird5.jpg" alt="Bird 5">
+                    </figure>
+                </div>
+            </div>
+            <div class="category" id="animals">
+                <h2>Animals</h2>
+                <div class="gallery">
+                    <figure class="gallery-item" data-aos="fade-up">
+                        <img src="img/a1.jpg" alt="Animal 1">
+                    </figure>
+                    <figure class="gallery-item" data-aos="fade-up">
+                        <img src="img/a2.jpg" alt="Animal 2">
+                    </figure>
+                    <figure class="gallery-item" data-aos="fade-up">
+                        <img src="img/a3.jpg" alt="Animal 3">
+                    </figure>
+                    <figure class="gallery-item" data-aos="fade-up">
+                        <img src="img/a4.jpg" alt="Animal 4">
+                    </figure>
+                    <figure class="gallery-item" data-aos="fade-up">
+                        <img src="img/a5.jpg" alt="Animal 5">
+                    </figure>
+                </div>
+            </div>
+            <div class="category" id="nature">
+                <h2>Nature</h2>
+                <div class="gallery">
+                    <figure class="gallery-item" data-aos="fade-up">
+                        <img src="img/n1.webp" alt="Nature 1">
+                    </figure>
+                    <figure class="gallery-item" data-aos="fade-up">
+                        <img src="img/n2.jpg" alt="Nature 2">
+                    </figure>
+                    <figure class="gallery-item" data-aos="fade-up">
+                        <img src="img/n4.jpg" alt="Nature 3">
+                    </figure>
+                    <figure class="gallery-item" data-aos="fade-up">
+                        <img src="img/n3.jpeg" alt="Nature 4">
+                    </figure>
+                    <figure class="gallery-item" data-aos="fade-up">
+                        <img src="n5.jpg" alt="Nature 5">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="about-us" id="about-us">
+       <h2>About Us</h2>
+       <p> Welcome to Galeriexel! We are passionate about connecting people with the beauty of the natural world.
+        Our mission is to provide a platform where you can explore stunning images of birds, animals, and the beauty of nature.
+        Whether you're an enthusiast, a photographer, or just someone who loves the outdoors, our gallery offers a diverse collection
+        of images to inspire and captivate.</P>
+	<p>At Galeriexel, we believe in the power of nature to refresh, rejuvenate, and remind us of the
+        world beyond our screens.</p>
+</section>
+<br><br><br><br><br><br>
+    </main>
+    <footer>
+<br>
+        <p>&copy; 2024 Galeriexel. All rights reserved.</p>
+<br>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
